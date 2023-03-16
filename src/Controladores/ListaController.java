@@ -57,7 +57,7 @@ public class ListaController implements ActionListener {
         if(e.getSource() == this.VistaLista.btnAtenderCliente){
             
             this.ModeloLista.DesEncolar();
-            JOptionPane.showMessageDialog(null, "Cliente Atendido!!!");
+            JOptionPane.showMessageDialog(null, "Cliente atendido!!!");
                 
         }
         
